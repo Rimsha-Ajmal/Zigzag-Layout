@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Boxes */
+
+div#box-1 {
+  background-color: #ff95be;
+}
+
+div#box-2 {
+  background-color: #f9e3ca;
+}
+
+div#box-3 {
+  background-color: #b784b7;
+}
+
+div.box {
+  height: 255px;
+}
+
+/* Image div */
+
+div#box-1-image {
+  float: right;
+  padding-right: 100px;
+}
+
+div#box-2-image {
+  float: left;
+  padding-left: 100px;
+}
+
+div#box-3-image {
+  float: right;
+  padding-right: 100px;
+}
+
+div.box-image {
+  padding-top: 20px;
+}
+
+/* Image */
+
+div#box-1-image > img {
+  margin-left: 200px;
+}
+
+div#box-2-image > img {
+  margin-right: 200px;
+}
+
+div#box-3-image > img {
+  margin-left: 200px;
+}
+
+div.box-image > img {
+  border-radius: 50%;
+}
+
+/* Content */
+
+div.box-content {
+  padding: 50px;
+}
+
+div#box-2-content {
+  text-align: right;
+}
+
+/* Heading */
+
+div.box-content > h1 {
+  text-transform: uppercase;
+}
+
+/* Paragraph */
+
+div.box-content > p {
+  line-height: 1.6em;
+  margin-bottom: 30px;
+}
+
+/* Button */
+
+div.box-content > button {
+  padding: 10px 25px;
+  background-color: #eea5a6;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+/* a tag */
+
+div.box-content > button > a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* hover */
+
+div.box-content > button > a:hover {
+  font-size: 20px;
+  text-shadow: 1px 1px #b784b7;
+}
+
+/* visited */
+
+div.box-content > button > a:visited {
+  color: purple;
+}
